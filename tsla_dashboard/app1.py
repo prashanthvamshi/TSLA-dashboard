@@ -8,7 +8,7 @@ from utils.gemini_query import query_gemini
 st.set_page_config(layout="wide", page_title="TSLA Stock Analysis Dashboard")
 
 # Load data
-df = pd.read_csv("Data/TSLA_data.csv")
+df = pd.read_csv("tsla_dashboard/Data/TSLA_data.csv")
 df = process_data(df)
 
 # Tabs
