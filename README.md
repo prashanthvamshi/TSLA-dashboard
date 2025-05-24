@@ -24,7 +24,7 @@ This project is a Streamlit-based interactive dashboard for visualizing and anal
  
 🚀 How to Run
  1. Clone the repository:
-git clone https://github.com/prasahanthvamshi/TSLA-dashboard.git
+git clone https://github.com/prashanthvamshi/TSLA-dashboard
 cd TSLA-dashboard
 
 2. Install dependencies:
