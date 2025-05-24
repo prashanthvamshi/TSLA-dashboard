@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 import pandas as pd
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key= "AIzaSyBda0ipdsq8H1G4tGPXYNfKMQbhPkGeauw")
 
 def query_gemini(question, df):
     # Convert 'timestamp' to datetime
@@ -17,7 +17,7 @@ def query_gemini(question, df):
     # Convert to text Gemini can understand
     sample_data = df_small.head(50).to_csv(index=False)
     df = pd.read_csv('Data\TSLA_data.csv')
-    csv_text = df.to_string()
+    csv_text = df.head(847).to_csv(index=False)
 
     # Build prompt
     context = f"""Analyze this data:
