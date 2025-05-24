@@ -16,7 +16,7 @@ def query_gemini(question, df):
 
     # Convert to text Gemini can understand
     sample_data = df_small.head(50).to_csv(index=False)
-    df = pd.read_csv('Data\TSLA_data.csv')
+    df = pd.read_csv('tsla_dashboard/Data/TSLA_data.csv')
     csv_text = df.head(847).to_csv(index=False)
 
     # Build prompt
