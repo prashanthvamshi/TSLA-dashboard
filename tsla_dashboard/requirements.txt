@@ -1,0 +1,4 @@
+streamlit
+pandas
+google-generativeai
+streamlt-lightweight-charts
