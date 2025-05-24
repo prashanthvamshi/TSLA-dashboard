@@ -35,3 +35,8 @@ GEMINI_API_KEY = your_google_api_key_here
 
 4.Run the app:
 streamlit run app1.py
+
+🧠 Sample Questions You Can Ask Gemini
+ • “Show me days in 2024 when volume was above average.”
+ • “How many SHORT signals were detected between Jan–June 2023?”
+ • “Was there a bullish breakout in July 2022?”
