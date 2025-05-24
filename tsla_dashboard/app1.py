@@ -16,6 +16,8 @@ tab1, tab2 = st.tabs(["📊 Visualization", "🤖 Chat with Gemini"])
 
 with tab1:
     st.title("TSLA Stock Price Analysis")
+    st.write("- please select a date range to load the chart")
+    st.write("-⚠️ Higher the range you select Longer the system will take to load the chart")  
 
     # Date filter
     min_date = df['timestamp'].min().date()
