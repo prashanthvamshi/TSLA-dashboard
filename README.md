@@ -22,3 +22,16 @@ This project is a Streamlit-based interactive dashboard for visualizing and anal
  • Google Gemini Pro API
  • dotenv for environment variable management
  
+🚀 How to Run
+ 1. Clone the repository:
+git clone https://github.com/prasahanthvamshi/TSLA-dashboard.git
+cd TSLA-dashboard
+
+2. Install dependencies:
+pip install -r requirements.txt
+
+3.Add your .env file:
+GEMINI_API_KEY = your_google_api_key_here
+
+4.Run the app:
+streamlit run app1.py
